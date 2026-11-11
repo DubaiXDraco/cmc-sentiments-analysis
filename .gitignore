@@ -1,0 +1,22 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+
+# Model weights lớn
+models/phobert_finetuned/
+*.bin
+*.pt
+setup_repo.py
