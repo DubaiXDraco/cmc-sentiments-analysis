@@ -1,0 +1,12 @@
+{
+  "model": "TF-IDF + Logistic Regression",
+  "n_splits": 30,
+  "n_samples": 1860,
+  "test_size": 0.15,
+  "accuracy_mean": 0.6382,
+  "accuracy_std": 0.0275,
+  "accuracy_min": 0.5699,
+  "accuracy_max": 0.6882,
+  "macro_f1_mean": 0.5979,
+  "macro_f1_std": 0.0323
+}

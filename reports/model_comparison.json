@@ -1,0 +1,44 @@
+[
+  {
+    "model_key": "tfidf_lr",
+    "model_name": "TF-IDF + Logistic Regression",
+    "val_acc": 0.6093,
+    "val_macro_f1": 0.5694,
+    "test_acc": 0.6344,
+    "test_macro_f1": 0.5807,
+    "gold_acc": 0.6083,
+    "gold_macro_f1": 0.5108,
+    "challenge_acc": 0.575,
+    "challenge_macro_f1": 0.5537,
+    "latency_ms": 14.04,
+    "size_mb": 0.3
+  },
+  {
+    "model_key": "tfidf_svm",
+    "model_name": "TF-IDF (Word+Char) + LinearSVC",
+    "val_acc": 0.6487,
+    "val_macro_f1": 0.5422,
+    "test_acc": 0.6703,
+    "test_macro_f1": 0.5214,
+    "gold_acc": 0.7,
+    "gold_macro_f1": 0.5461,
+    "challenge_acc": 0.35,
+    "challenge_macro_f1": 0.3333,
+    "latency_ms": 49.48,
+    "size_mb": 1.35
+  },
+  {
+    "model_key": "phobert",
+    "model_name": "Fine-tuned PhoBERT (v2)",
+    "val_acc": 0.6918,
+    "val_macro_f1": 0.669,
+    "test_acc": 0.6523,
+    "test_macro_f1": 0.6052,
+    "gold_acc": 0.625,
+    "gold_macro_f1": 0.5566,
+    "challenge_acc": 0.875,
+    "challenge_macro_f1": 0.8611,
+    "latency_ms": 83.33,
+    "size_mb": 516.95
+  }
+]

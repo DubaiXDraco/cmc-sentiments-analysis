@@ -1,0 +1,31 @@
+{
+  "n_json_files": 3,
+  "total_raw_items_scanned": 2763,
+  "excluded_official_fanpage_posts": 751,
+  "dropped_empty_text": 10,
+  "student_nonempty_records": 2002,
+  "after_length_filter": 1936,
+  "after_exact_text_clean_dedup": 1868,
+  "unique_core_text_count": 1860,
+  "pii_residual_count": 0,
+  "type_distribution": {
+    "comment": 1174,
+    "post": 694
+  },
+  "source_distribution": {
+    "Khu Tự Trị CMC": 1146,
+    "Cộng Đồng Sinh Viên CMC": 422,
+    "ctsv.cmcuni": 213,
+    "TruongDaiHocCMC": 87
+  },
+  "topic_distribution": {
+    "Giao lưu & Khác": 1301,
+    "Hoạt động & CLB": 207,
+    "Học vụ & Giảng viên": 139,
+    "Đời sống & Nhà trọ": 103,
+    "Cơ sở vật chất & CNTT": 71,
+    "Tìm đồ & Hỗ trợ": 47
+  },
+  "date_min": "2025-11-29",
+  "date_max": "2026-11-08"
+}

@@ -1,0 +1,25 @@
+=== GOLD REAL TEST (120 mẫu) - Fine-tuned PhoBERT (v2) ===
+Accuracy: 0.6250 | Macro-F1: 0.5566
+
+              precision    recall  f1-score   support
+
+    Negative     0.2143    0.6000    0.3158        10
+     Neutral     0.8846    0.5750    0.6970        80
+    Positive     0.5750    0.7667    0.6571        30
+
+    accuracy                         0.6250       120
+   macro avg     0.5580    0.6472    0.5566       120
+weighted avg     0.7514    0.6250    0.6552       120
+
+=== SEMI-AUTO TEST (279 mẫu) ===
+Accuracy: 0.6523 | Macro-F1: 0.6052
+
+              precision    recall  f1-score   support
+
+    Negative     0.3725    0.4750    0.4176        40
+     Neutral     0.7143    0.6738    0.6934       141
+    Positive     0.7158    0.6939    0.7047        98
+
+    accuracy                         0.6523       279
+   macro avg     0.6009    0.6142    0.6052       279
+weighted avg     0.6658    0.6523    0.6578       279

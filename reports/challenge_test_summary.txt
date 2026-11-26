@@ -1,0 +1,22 @@
+Challenge test set: 40 câu độc lập (từ 40 câu viết tay, loại 0 câu trùng Train/Val)
+TF-IDF + LR   -> Accuracy: 0.5750 | Macro-F1: 0.5537
+PhoBERT (v2)  -> Accuracy: 0.8750 | Macro-F1: 0.8611
+
+Chi tiết phân tích trên PhoBERT:
+              precision    recall  f1-score   support
+
+    Negative     0.8571    1.0000    0.9231        18
+     Neutral     0.9000    0.7500    0.8182        12
+    Positive     0.8889    0.8000    0.8421        10
+
+    accuracy                         0.8750        40
+   macro avg     0.8820    0.8500    0.8611        40
+weighted avg     0.8779    0.8750    0.8714        40
+
+Số câu PhoBERT sai (5/40):
+                                       text true_label   lr_pred phobert_pred
+0   Trường mình học AI xong xin việc dễ lắm   Positive   Neutral      Neutral
+13         Thời khóa biểu đâu rồi mọi người    Neutral   Neutral     Negative
+16                         Hôm nay trời mưa    Neutral  Positive     Negative
+35                       Không có gì để chê   Positive  Negative     Negative
+37                         Hôm nay trời đẹp    Neutral  Positive     Positive

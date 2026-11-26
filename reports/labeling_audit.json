@@ -1,0 +1,16 @@
+{
+  "n_gold_samples": 120,
+  "semi_auto_distribution": {
+    "Negative": 40,
+    "Neutral": 40,
+    "Positive": 40
+  },
+  "gold_distribution": {
+    "Neutral": 80,
+    "Positive": 30,
+    "Negative": 10
+  },
+  "semi_vs_gold_agreement": 0.5667,
+  "semi_vs_gold_cohen_kappa": 0.35,
+  "n_corrected": 52
+}

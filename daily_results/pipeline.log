@@ -1,0 +1,14 @@
+[2026-11-25 14:30:11] START mode=replay date=2026-11-04 backend=tfidf_lr
+[2026-11-25 14:30:17] SUCCESS date=2026-11-04: +7 bản ghi mới (bỏ qua 0 trùng) | Phân bố={'Positive': 6, 'Neutral': 1} | Lưu=sentiment_2026-11-04.csv
+[2026-11-25 14:30:21] START mode=replay date=2026-11-05 backend=tfidf_lr
+[2026-11-25 14:30:28] SUCCESS date=2026-11-05: +15 bản ghi mới (bỏ qua 0 trùng) | Phân bố={'Positive': 9, 'Neutral': 6} | Lưu=sentiment_2026-11-05.csv
+[2026-11-25 14:30:30] START mode=replay date=2026-11-06 backend=tfidf_lr
+[2026-11-25 14:30:36] SUCCESS date=2026-11-06: +28 bản ghi mới (bỏ qua 0 trùng) | Phân bố={'Neutral': 16, 'Positive': 9, 'Negative': 3} | Lưu=sentiment_2026-11-06.csv
+[2026-11-25 14:30:39] START mode=replay date=2026-11-07 backend=tfidf_lr
+[2026-11-25 14:30:46] SUCCESS date=2026-11-07: +14 bản ghi mới (bỏ qua 0 trùng) | Phân bố={'Positive': 10, 'Negative': 2, 'Neutral': 2} | Lưu=sentiment_2026-11-07.csv
+[2026-11-25 14:30:49] START mode=replay date=2026-11-08 backend=tfidf_lr
+[2026-11-25 14:30:55] SUCCESS date=2026-11-08: +2 bản ghi mới (bỏ qua 0 trùng) | Phân bố={'Positive': 2} | Lưu=sentiment_2026-11-08.csv
+[2026-11-25 14:30:58] START mode=replay date=2026-11-06 backend=tfidf_lr
+[2026-11-25 14:30:58] DONE date=2026-11-06: 0 bản ghi mới (bỏ qua 28 ID đã xử lý - idempotent).
+[2026-11-25 14:31:02] START mode=replay date=2026-11-08 backend=tfidf_lr
+[2026-11-25 14:31:02] DONE date=2026-11-08: 0 bản ghi mới (bỏ qua 2 ID đã xử lý - idempotent).

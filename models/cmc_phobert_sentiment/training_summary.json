@@ -1,0 +1,72 @@
+{
+  "base_model": "vinai/phobert-base-v2",
+  "seed": 42,
+  "device": "cpu",
+  "optimization": "length_sorted_frozen_prefix_cache",
+  "epochs": 6,
+  "batch_size": 32,
+  "lr": 5e-05,
+  "max_length": 64,
+  "unfreeze_layers": 2,
+  "word_segmentation": false,
+  "trainable_params": 14768643,
+  "total_params": 135000579,
+  "class_weights": [
+    1.9908,
+    0.6878,
+    0.9581
+  ],
+  "best_epoch": 5,
+  "best_val_macro_f1": 0.669,
+  "total_train_sec": 226.59,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.072,
+      "val_loss": 1.0082,
+      "val_accuracy": 0.5878,
+      "val_macro_f1": 0.5018,
+      "elapsed_sec": 29.28
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.9079,
+      "val_loss": 0.8728,
+      "val_accuracy": 0.6272,
+      "val_macro_f1": 0.6032,
+      "elapsed_sec": 29.45
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.7626,
+      "val_loss": 0.8246,
+      "val_accuracy": 0.6738,
+      "val_macro_f1": 0.641,
+      "elapsed_sec": 29.77
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.651,
+      "val_loss": 0.7741,
+      "val_accuracy": 0.681,
+      "val_macro_f1": 0.6611,
+      "elapsed_sec": 28.87
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.5679,
+      "val_loss": 0.771,
+      "val_accuracy": 0.6918,
+      "val_macro_f1": 0.669,
+      "elapsed_sec": 29.33
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.5187,
+      "val_loss": 0.7724,
+      "val_accuracy": 0.6918,
+      "val_macro_f1": 0.6628,
+      "elapsed_sec": 29.81
+    }
+  ]
+}

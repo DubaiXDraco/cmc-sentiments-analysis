@@ -1,0 +1,25 @@
+=== GOLD REAL TEST (120 mẫu) - TF-IDF + Logistic Regression ===
+Accuracy: 0.6083 | Macro-F1: 0.5108
+
+              precision    recall  f1-score   support
+
+    Negative     0.1739    0.4000    0.2424        10
+     Neutral     0.8448    0.6125    0.7101        80
+    Positive     0.5128    0.6667    0.5797        30
+
+    accuracy                         0.6083       120
+   macro avg     0.5105    0.5597    0.5108       120
+weighted avg     0.7059    0.6083    0.6386       120
+
+=== SEMI-AUTO TEST (279 mẫu) ===
+Accuracy: 0.6344 | Macro-F1: 0.5807
+
+              precision    recall  f1-score   support
+
+    Negative     0.3404    0.4000    0.3678        40
+     Neutral     0.6815    0.6525    0.6667       141
+    Positive     0.7113    0.7041    0.7077        98
+
+    accuracy                         0.6344       279
+   macro avg     0.5777    0.5855    0.5807       279
+weighted avg     0.6431    0.6344    0.6382       279

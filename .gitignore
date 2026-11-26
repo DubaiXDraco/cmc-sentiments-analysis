@@ -1,22 +1,26 @@
-# Byte-compiled / cache
-__pycache__/
-*.py[cod]
-*$py.class
-.ipynb_checkpoints/
-
-# Virtual Environment
-.env
+# Virtual environment & caches
 .venv/
 venv/
 env/
+.hf_cache/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
 
-# IDE & OS
+# Raw PII social exports (never commit raw scraped JSONs)
+dataset_*.json
+*.raw.json
+
+# Large model binary weights (>100MB GitHub limit)
+models/cmc_phobert_sentiment/*.safetensors
+models/cmc_phobert_sentiment/*.bin
+*.pt
+*.pth
+
+# Logs & OS files
 .vscode/
 .idea/
 .DS_Store
-
-# Model weights lớn
-models/phobert_finetuned/
-*.bin
-*.pt
-setup_repo.py
+Thumbs.db

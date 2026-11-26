@@ -1,0 +1,45 @@
+{
+  "silver_model": "wonrax/phobert-base-vietnamese-sentiment",
+  "seed": 42,
+  "n_labeled_total": 1868,
+  "n_unique_core_text": 1860,
+  "n_removed_core_duplicates": 8,
+  "n_train": 1302,
+  "n_val": 279,
+  "n_test": 279,
+  "label_source_counts": {
+    "semi_auto_phobert": 1837,
+    "semi_auto_domain_rule": 31
+  },
+  "label_dist_all_clean": {
+    "Neutral": 919,
+    "Positive": 640,
+    "Negative": 309
+  },
+  "label_dist_dedup": {
+    "Neutral": 915,
+    "Positive": 636,
+    "Negative": 309
+  },
+  "label_dist_train": {
+    "Neutral": 631,
+    "Positive": 453,
+    "Negative": 218
+  },
+  "label_dist_val": {
+    "Neutral": 143,
+    "Positive": 85,
+    "Negative": 51
+  },
+  "label_dist_test": {
+    "Neutral": 141,
+    "Positive": 98,
+    "Negative": 40
+  },
+  "leakage_check": {
+    "train_val_overlap": 0,
+    "train_test_overlap": 0,
+    "val_test_overlap": 0
+  },
+  "team_annotation_batch_size": 200
+}

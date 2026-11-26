@@ -1,0 +1,294 @@
+{
+  "n_train": 1302,
+  "n_val": 279,
+  "n_test": 279,
+  "n_gold_real_test": 120,
+  "n_challenge_test": 40,
+  "n_unique_core_text": 1860,
+  "leakage_check": {
+    "train_val_overlap": 0,
+    "train_test_overlap": 0,
+    "val_test_overlap": 0
+  },
+  "models": {
+    "tfidf_lr": {
+      "display_name": "TF-IDF + Logistic Regression",
+      "size_mb": 0.3,
+      "latency_ms_per_text": 14.04,
+      "val": {
+        "n_samples": 279,
+        "accuracy": 0.6093,
+        "macro_f1": 0.5694,
+        "confusion_matrix": [
+          [
+            21,
+            26,
+            4
+          ],
+          [
+            22,
+            95,
+            26
+          ],
+          [
+            11,
+            20,
+            54
+          ]
+        ]
+      },
+      "test": {
+        "n_samples": 279,
+        "accuracy": 0.6344,
+        "macro_f1": 0.5807,
+        "confusion_matrix": [
+          [
+            16,
+            19,
+            5
+          ],
+          [
+            26,
+            92,
+            23
+          ],
+          [
+            5,
+            24,
+            69
+          ]
+        ]
+      },
+      "gold_real_test": {
+        "n_samples": 120,
+        "accuracy": 0.6083,
+        "macro_f1": 0.5108,
+        "confusion_matrix": [
+          [
+            4,
+            4,
+            2
+          ],
+          [
+            14,
+            49,
+            17
+          ],
+          [
+            5,
+            5,
+            20
+          ]
+        ]
+      },
+      "challenge_test": {
+        "n_samples": 40,
+        "accuracy": 0.575,
+        "macro_f1": 0.5537,
+        "confusion_matrix": [
+          [
+            11,
+            4,
+            3
+          ],
+          [
+            0,
+            8,
+            4
+          ],
+          [
+            3,
+            3,
+            4
+          ]
+        ]
+      }
+    },
+    "tfidf_svm": {
+      "display_name": "TF-IDF (Word+Char) + LinearSVC",
+      "size_mb": 1.35,
+      "latency_ms_per_text": 49.48,
+      "val": {
+        "n_samples": 279,
+        "accuracy": 0.6487,
+        "macro_f1": 0.5422,
+        "confusion_matrix": [
+          [
+            8,
+            33,
+            10
+          ],
+          [
+            2,
+            118,
+            23
+          ],
+          [
+            0,
+            30,
+            55
+          ]
+        ]
+      },
+      "test": {
+        "n_samples": 279,
+        "accuracy": 0.6703,
+        "macro_f1": 0.5214,
+        "confusion_matrix": [
+          [
+            3,
+            33,
+            4
+          ],
+          [
+            3,
+            115,
+            23
+          ],
+          [
+            2,
+            27,
+            69
+          ]
+        ]
+      },
+      "gold_real_test": {
+        "n_samples": 120,
+        "accuracy": 0.7,
+        "macro_f1": 0.5461,
+        "confusion_matrix": [
+          [
+            2,
+            7,
+            1
+          ],
+          [
+            1,
+            64,
+            15
+          ],
+          [
+            1,
+            11,
+            18
+          ]
+        ]
+      },
+      "challenge_test": {
+        "n_samples": 40,
+        "accuracy": 0.35,
+        "macro_f1": 0.3333,
+        "confusion_matrix": [
+          [
+            2,
+            14,
+            2
+          ],
+          [
+            0,
+            8,
+            4
+          ],
+          [
+            0,
+            6,
+            4
+          ]
+        ]
+      }
+    },
+    "phobert": {
+      "display_name": "Fine-tuned PhoBERT (v2)",
+      "size_mb": 516.95,
+      "latency_ms_per_text": 83.33,
+      "val": {
+        "n_samples": 279,
+        "accuracy": 0.6918,
+        "macro_f1": 0.669,
+        "confusion_matrix": [
+          [
+            34,
+            10,
+            7
+          ],
+          [
+            24,
+            100,
+            19
+          ],
+          [
+            11,
+            15,
+            59
+          ]
+        ]
+      },
+      "test": {
+        "n_samples": 279,
+        "accuracy": 0.6523,
+        "macro_f1": 0.6052,
+        "confusion_matrix": [
+          [
+            19,
+            14,
+            7
+          ],
+          [
+            26,
+            95,
+            20
+          ],
+          [
+            6,
+            24,
+            68
+          ]
+        ]
+      },
+      "gold_real_test": {
+        "n_samples": 120,
+        "accuracy": 0.625,
+        "macro_f1": 0.5566,
+        "confusion_matrix": [
+          [
+            6,
+            3,
+            1
+          ],
+          [
+            18,
+            46,
+            16
+          ],
+          [
+            4,
+            3,
+            23
+          ]
+        ]
+      },
+      "challenge_test": {
+        "n_samples": 40,
+        "accuracy": 0.875,
+        "macro_f1": 0.8611,
+        "confusion_matrix": [
+          [
+            18,
+            0,
+            0
+          ],
+          [
+            2,
+            9,
+            1
+          ],
+          [
+            1,
+            1,
+            8
+          ]
+        ]
+      }
+    }
+  }
+}
